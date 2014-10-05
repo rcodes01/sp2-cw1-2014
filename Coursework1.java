@@ -14,13 +14,18 @@ public class Coursework1 {
                 if(elem_a == elem_b) common += elem_a + " ";
             }
         }
-        System.out.println("Common data is: " + common);
+        System.out.print("Common data is: " + common);
+    }
+    
+    public static void displayEelements(int[] arr) {
+        for(int elem : arr) System.out.print(elem + " ");
     }
     
     
     public static void main(String[] args) {
         int[] set1 = {2, 5, 6, 8, 9};
         int[] set2 = {3, 5, 7, 8, 10};
-        displayCommon(set1, set2);
+        //displayCommon(set1, set2);
+        displayEelements(set1);
     }
 }
