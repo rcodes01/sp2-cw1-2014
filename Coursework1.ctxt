@@ -1,10 +1,12 @@
 #BlueJ class context
-comment0.params=a\ b
-comment0.target=void\ displayCommon(int[],\ int[])
+comment0.params=a\ b\ print_count_common
+comment0.target=void\ displayCommon(int[],\ int[],\ boolean)
 comment1.params=base\ compare
 comment1.target=void\ displayNonCommon(int[],\ int[])
 comment2.params=arr
 comment2.target=void\ displayElements(int[])
-comment3.params=args
-comment3.target=void\ main(java.lang.String[])
-numComments=4
+comment3.params=array_number
+comment3.target=int[]\ fillArray(int)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5
